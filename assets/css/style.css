@@ -18,7 +18,9 @@
     font-family: ProximaNova-SemiBold;
     src: url(../fonts/ProximaNova-SemiBold.otf);
 }
-
+a{
+  text-decoration:none!important;
+}
 body {
     margin: 0px;
     padding: 0px;
@@ -168,6 +170,7 @@ a {
 }
 
 .btn-image {
+    font-size:20px;
     display: inline-block;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
@@ -747,7 +750,7 @@ box-shadow: 0px 0px 27px -4px rgba(0,0,0,0.54);
             letter-spacing: 5px;
             padding: 15px 30px;
             border-radius: 50px;
-            background-color: #59b8a2;
+            background-color: #F06EAA;
             transition: all 0.3s ease-in-out;
             -webkit-transition: all 0.3s ease-in-out;
             -moz-transition: all 0.3s ease-in-out;
@@ -757,7 +760,7 @@ box-shadow: 0px 0px 27px -4px rgba(0,0,0,0.54);
             .subscribe-form-wrapper .input-group .btn:hover,
             .subscribe-form-wrapper .input-group .btn:active,
             .subscribe-form-wrapper .input-group .btn:focus {
-                background-color: #3b9782;
+                background-color: #4b4b4b;
             }
 
 
